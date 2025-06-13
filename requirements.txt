@@ -1,0 +1,6 @@
+livekit-agents
+python-dotenv
+openai
+deepgram-sdk
+elevenlabs
+cartesia 
