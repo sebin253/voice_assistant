@@ -15,7 +15,7 @@ Handles interruptions using VAD and turn detection
 Logs conversation metrics like latency and response timings
 
 
-git clone https://github.com/your-username/propal-voice-agent.git
+git clone https://github.com/sebin253/voice-assistant.git
 cd propal-voice-agent
 
 
