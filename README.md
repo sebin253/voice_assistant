@@ -1,33 +1,21 @@
-# 📝 Real-Time Voice Transcriber with LiveKit + AssemblyAI
+# 📝 Real-Time Voice Transcriber with LiveKit 1. Clone the repo
+This repository contains a real-time multilingual voice agent built using LiveKit Agents. The agent demonstrates the core functionality of a voice-based conversational system tailored for Indian SMBs as part of the proPAL AI Backend Engineering Internship task.
 
-This project is a real-time **speech-to-text transcriber** powered by:
+🧠 Project Objective
+Develop a simple, real-time voice agent pipeline that:
 
-- 🎙️ [LiveKit Agents](https://github.com/livekit/agents) — Manages audio room interactions
-- 🧠 [AssemblyAI](https://www.assemblyai.com/) — Converts speech to text
-- 🗂️ Python-based backend agent architecture
+Listens to user speech via STT (Speech-to-Text)
 
----
+Generates a text response using an LLM (Large Language Model)
 
-## 🚀 What It Does
+Responds with natural speech using TTS (Text-to-Speech)
 
-- Connects to a LiveKit audio room
-- Subscribes to audio tracks only
-- Transcribes live speech using AssemblyAI
-- Logs the transcription to console
+Handles interruptions using VAD and turn detection
 
----
+Logs conversation metrics like latency and response timings
 
-## 🛠 Requirements
 
-- Python 3.9+
-- LiveKit Cloud account or self-hosted LiveKit server
-- AssemblyAI API key
+git clone https://github.com/your-username/propal-voice-agent.git
+cd propal-voice-agent
 
----
 
-## 📦 Installation
-
-1. Clone this repo
-2. Install dependencies:
-   ```bash
-   pip install livekit-agents assemblyai python-dotenv
