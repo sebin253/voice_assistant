@@ -1,4 +1,4 @@
-# 📝 Real-Time Voice Transcriber with LiveKit 1. Clone the repo
+# 📝 Real-Time Voice Transcriber with LiveKit 
 This repository contains a real-time multilingual voice agent built using LiveKit Agents. The agent demonstrates the core functionality of a voice-based conversational system tailored for Indian SMBs as part of the proPAL AI Backend Engineering Internship task.
 
 🧠 Project Objective
